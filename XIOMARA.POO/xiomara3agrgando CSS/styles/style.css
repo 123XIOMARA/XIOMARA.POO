@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    list-style-type: none;
+    font-family: 'Sigmar', cursive;
+    font-family: 900;
+}
+.menu li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li a {
+    color: aqua;
+
+}
+.serviciosdisponbles {
+    list-style-position: inside;
+}
+
+.caja {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 20px 30px 60px 30px;
+    padding: 20px 20px 20px 20px;
+    
+    /*background-image: url("./../img/nails.png");*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+
+    border-radius: 30px;
+}
+
+.caja p{
+    text-align: center;
+    line-height: 30px;
+    text-decoration: underline wavy;
+    
+}

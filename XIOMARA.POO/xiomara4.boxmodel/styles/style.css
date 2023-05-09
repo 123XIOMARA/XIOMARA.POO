@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+}
+
+.menu {
+    list-style-type: none;
+    background-color: rgb(182, 182, 16);
+    padding-block: 10px;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-inline: 10px ;
+}
+
+.menu_item a {
+    color: bisque;
+    text-decoration: none;
+}
+.menu_item.active a, .menu_item a:hover {
+    text-decoration: underline double;
+}
+
+/*conceptos*/
+
+.conceptos {
+    width: 30%;
+    background-color: #adaaaa;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline: 1.5%;
+    margin-block: 20px;
+    overflow: auto;
+    position: relative;
+    border: 4px double #da62df;
+}
+
+.conceptos_imagen{
+    width: 100%;
+}
+
+.conceptos_titulo {
+    font-size: 18px;
+}
+
+.concepto__parrafo {
+    font-size: 14px;
+}
+
+.concepto__boton {   
+    background-color: #da62df;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.concepto__imagen,
+.concepto__titulo,
+.concepto__parrafo {
+    margin-bottom: 10px;
+}
